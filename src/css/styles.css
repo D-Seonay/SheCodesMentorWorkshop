@@ -1,5 +1,18 @@
 * {
-  display: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+:root {
+  --color-primary: #F8F9FC;
+  --color-secondary: #E1E6FE;
+  --color-action: #8767F3;
+  --color-white: #ffffff;
+  --color-black: #000000;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -5,11 +5,10 @@
     "start": "functions-framework --target=helloHttp",
     "build": "sass ./src/scss/styles.scss ./dist/styles.css",
     "build:watch": "sass --watch ./src/scss/styles.scss ./dist/styles.css"
-
   },
   "dependencies": {
     "fs": "^0.0.1-security",
-    "node": "^20.2.0",
+    "node": "^20.6.0",
     "path": "^0.12.7",
     "sass": "^1.62.1"
   }

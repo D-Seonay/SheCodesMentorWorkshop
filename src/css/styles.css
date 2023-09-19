@@ -15,4 +15,8 @@
   --color-black: #000000;
 }
 
+.wrapper {
+  background-color: var(--color-black);
+}
+
 /*# sourceMappingURL=styles.css.map */

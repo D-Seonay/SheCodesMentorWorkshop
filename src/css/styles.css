@@ -5,6 +5,7 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -121,7 +122,7 @@ header .wrapper .right nav .nav-link:hover {
   border-bottom: 1px solid gray;
 }
 .accordion .accordion-item button[aria-expanded=true] {
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid var(--color-action);
 }
 .accordion button {
   position: relative;
@@ -137,12 +138,12 @@ header .wrapper .right nav .nav-link:hover {
 }
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  color: blue;
+  color: var(--color-action);
 }
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
-  color: blue;
-  border: 1px solid blue;
+  color: var(--color-action);
+  border: 1px solid var(--color-action);
 }
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
@@ -178,7 +179,7 @@ header .wrapper .right nav .nav-link:hover {
   background: currentColor;
 }
 .accordion button[aria-expanded=true] {
-  color: blue;
+  color: var(--color-action);
 }
 .accordion button[aria-expanded=true] .icon::after {
   width: 0;

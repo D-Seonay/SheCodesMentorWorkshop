@@ -145,7 +145,7 @@ header {
   .accordion-item {
     border-bottom: 1px solid gray;
     button[aria-expanded='true'] {
-      border-bottom: 1px solid blue;
+      border-bottom: 1px solid var(--color-action);
     }
   }
   button {
@@ -161,11 +161,11 @@ header {
     outline: none;
     &:hover, &:focus {
       cursor: pointer;
-      color: blue;
+      color: var(--color-action);
       &::after {
         cursor: pointer;
-        color: blue;
-        border: 1px solid blue;
+        color: var(--color-action);
+        border: 1px solid var(--color-action);
       }
     }
     .accordion-title {
@@ -203,7 +203,7 @@ header {
     }
   }
   button[aria-expanded='true'] {
-    color: blue;
+    color: var(--color-action);
     .icon {
       &::after {
         width: 0;

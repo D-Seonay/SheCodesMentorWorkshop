@@ -356,4 +356,14 @@ h1 {
   color: #fff;
 }
 
+
+h2,h3,h4 {
+  color: var(--color-action);
+}
+#apropos {
+  padding:30px 150px;
+  text-align: justify;
+}
+
+
 /*# sourceMappingURL=styles.css.map */

@@ -22,7 +22,7 @@ body {
 
 header {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: var(--color-secondary);
   display: flex;
   justify-content: center;
@@ -35,7 +35,7 @@ header .wrapper {
   align-items: center;
 }
 header .wrapper .left {
-  width: 6vw;
+  width: 4vw;
   margin-left: 5vw;
 }
 header .wrapper .left img {
@@ -51,7 +51,7 @@ header .wrapper .right nav {
   align-items: center;
 }
 header .wrapper .right nav .nav-link {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: var(--color-black);
   transition: all 0.3s ease-in-out;
@@ -69,7 +69,7 @@ header .wrapper .right nav .nav-link:hover {
   gap: 5vw;
   height: 100%;
   width: 80%;
-  margin: 10vh auto;
+  margin: 20vh auto;
 }
 .hero .left {
   width: 50vw;
@@ -122,7 +122,7 @@ header .wrapper .right nav .nav-link:hover {
   border-bottom: 1px solid gray;
 }
 .accordion .accordion-item button[aria-expanded=true] {
-  border-bottom: 1px solid var(--color-action);
+  border-bottom: 1px solid blue;
 }
 .accordion button {
   position: relative;
@@ -138,12 +138,12 @@ header .wrapper .right nav .nav-link:hover {
 }
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  color: var(--color-action);
+  color: blue;
 }
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
-  color: var(--color-action);
-  border: 1px solid var(--color-action);
+  color: blue;
+  border: 1px solid blue;
 }
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
@@ -179,7 +179,7 @@ header .wrapper .right nav .nav-link:hover {
   background: currentColor;
 }
 .accordion button[aria-expanded=true] {
-  color: var(--color-action);
+  color: blue;
 }
 .accordion button[aria-expanded=true] .icon::after {
   width: 0;
@@ -495,6 +495,15 @@ footer div a {
 }
 footer div a:hover {
   color: var(--color-black);
+}
+
+.mentions-legales {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  margin: 5vh auto 5vh;
+  gap: 2vh;
 }
 
 /*# sourceMappingURL=styles.css.map */

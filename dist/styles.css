@@ -81,6 +81,7 @@ header .wrapper .right nav .nav-link:hover {
   font-weight: 600;
   color: var(--color-black);
   margin-bottom: 1rem;
+  text-align: left;
 }
 .hero .left p {
   font-size: 1.5rem;
@@ -138,12 +139,12 @@ header .wrapper .right nav .nav-link:hover {
 }
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  color: blue;
+  color: var(--color-action);
 }
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
-  color: blue;
-  border: 1px solid blue;
+  color: var(--color-action);
+  border: 1px solid var(--color-action);
 }
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
@@ -205,6 +206,21 @@ header .wrapper .right nav .nav-link:hover {
 
 .section-mentor {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+}
+.section-mentor .mentor-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 5vh;
 }
 .section-mentor h2 {
   font-size: 40px;
@@ -213,6 +229,7 @@ header .wrapper .right nav .nav-link:hover {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 80vw;
 }
 
 .card {
@@ -358,7 +375,17 @@ h1 {
 }
 
 #section-APropos {
-  margin: 15vh 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  width: 80%;
+}
+#section-APropos h2 {
+  color: var(--color-action);
+  font-size: 2rem;
 }
 
 .form-container {

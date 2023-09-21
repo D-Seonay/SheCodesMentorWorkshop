@@ -18,6 +18,7 @@
 
 body {
   background-color: var(--color-primary);
+  text-align: justify;
 }
 
 header {
@@ -123,7 +124,7 @@ header .wrapper .right nav .nav-link:hover {
   border-bottom: 1px solid gray;
 }
 .accordion .accordion-item button[aria-expanded=true] {
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid var(--color-action);
 }
 .accordion button {
   position: relative;
@@ -180,7 +181,7 @@ header .wrapper .right nav .nav-link:hover {
   background: currentColor;
 }
 .accordion button[aria-expanded=true] {
-  color: blue;
+  color: var(--color-action);
 }
 .accordion button[aria-expanded=true] .icon::after {
   width: 0;

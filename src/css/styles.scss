@@ -17,6 +17,7 @@
 
 body {
   background-color: var(--color-primary);
+  text-align: justify;
 }
 
 header {
@@ -147,7 +148,7 @@ header {
   .accordion-item {
     border-bottom: 1px solid gray;
     button[aria-expanded='true'] {
-      border-bottom: 1px solid blue;
+      border-bottom: 1px solid var(--color-action);
     }
   }
   button {
@@ -205,7 +206,7 @@ header {
     }
   }
   button[aria-expanded='true'] {
-    color: blue;
+    color: var(--color-action);
     .icon {
       &::after {
         width: 0;
